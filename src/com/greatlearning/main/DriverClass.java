@@ -12,7 +12,7 @@ public class DriverClass {
 		AdminDepartment adminDepartment=new AdminDepartment();
 		
 		System.out.println("Welcome to "+adminDepartment.departmentName()+"\n"+adminDepartment.getTodayswork()+"\n"+adminDepartment.getWorkDeadline()+"\n");
-		System.out.println("Welcome to "+hrDepartment.departmentName()+"\n"+hrDepartment.doActivity()+"\n"+adminDepartment.getWorkDeadline()+"\n\n");
+		System.out.println("Welcome to "+hrDepartment.departmentName()+"\n"+hrDepartment.doActivity()+"\n"+hrDepartment.getTodayswork()+"\n"+hrDepartment.getWorkDeadline()+"\n\n");
 		System.out.println("Welcome to "+techDepartment.departmentName()+"\n"+techDepartment.getTodayswork()+"\n"+techDepartment.getWorkDeadline()+"\n"+techDepartment.getTechStackInformation());
 
 	}
